@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HOW EXCITED ARE YOU?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💖 Are you excited to go out with me on MAY 4th? 💖</h1>
+    <div class="buttons">
+      <button id="yes">Yes 😍</button>
+      <button id="no">No 🙈</button>
+    </div>
+    <p id="response"></p>
+  </div>
+
+  <script>
+    document.getElementById("yes").onclick = function () {
+      document.getElementById("response").textContent = "Yay! I can't wait! 🥰";
+    };
+    document.getElementById("no").onclick = function () {
+      alert("Wait... Are you kidding?😂  Let's try again.");
+    };
+  </script>
+</body>
+</html>
